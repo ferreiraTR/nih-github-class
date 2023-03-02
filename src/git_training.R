@@ -12,7 +12,7 @@ library(usethis) #alternatively use_git_config instead of system("git config")
 
 create_github_token()
 #30 days before expiration is good. Generate token
-# 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
+
 gitcreds::gitcreds_set() #to enter token
 #create repository at Github and take the URL and 
 #Can create tokens using web browser as well: After signing in online, click Settings on the dropdown menu, Developer Setting -> Tokens (classic) -> Generate New Token
@@ -33,4 +33,4 @@ system("git remote rm origin")
 system("git remote add origin https://github.com/ferreiraTR/nih-github-class.git")
 #can be checked by going Tools -> Project Options -> Git/SVN
 
-#TEST 2
+
